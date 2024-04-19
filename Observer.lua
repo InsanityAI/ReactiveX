@@ -1,6 +1,6 @@
 if Debug then Debug.beginFile "ReactiveX/Observer" end
-OnInit.module("ReactiveX.Observer", function(require)
-    require "ReactiveX.Util"
+OnInit.module("ReactiveX/Observer", function(require)
+    require "ReactiveX/Util"
 
     --- @class Observer
     --- @field _onNext fun(values: ...)

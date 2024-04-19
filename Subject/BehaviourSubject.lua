@@ -1,9 +1,9 @@
 if Debug then Debug.beginFile "ReactiveX/BehaviorSubject" end
-OnInit.module("ReactiveX.Subject.BehaviorSubject", function(require)
-    require "ReactiveX.Util"
-    require "ReactiveX.Observable"
-    require "ReactiveX.Observer"
-    require "ReactiveX.Subject.Subject"
+OnInit.module("ReactiveX/Subject/BehaviorSubject", function(require)
+    require "ReactiveX/Util"
+    require "ReactiveX/Observable"
+    require "ReactiveX/Observer"
+    require "ReactiveX/Subject/Subject"
 
     --- @class BehaviorSubject : Subject
     -- @description A Subject that tracks its current value. Provides an accessor to retrieve the most

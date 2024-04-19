@@ -1,9 +1,9 @@
 if Debug then Debug.beginFile "ReactiveX/Scheduler/TimeoutScheduler" end
-OnInit.module("ReactiveX.Scheduler.TimeoutScheduler", function(require)
-    require "ReactiveX.Util"
+OnInit.module("ReactiveX/Scheduler/TimeoutScheduler", function(require)
+    require "ReactiveX/Util"
     require.optional "TimerQueue"
     require "TimerQueueSubscription"
-    require "ReactiveX.Scheduler.Scheduler"
+    require "ReactiveX/Scheduler/Scheduler"
 
     --- @class TimeoutScheduler: Scheduler
     --- @field defaultDelay number

@@ -1,6 +1,6 @@
 if Debug then Debug.beginFile "ReactiveX/Observable" end
-OnInit.module("ReactiveX.Observable", function(require)
-    require "ReactiveX.Util"
+OnInit.module("ReactiveX/Observable", function(require)
+    require "ReactiveX/Util"
 
     --- @class Observable
     --- @field _subscribe fun(observer: Observer): Subscription

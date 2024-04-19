@@ -1,8 +1,8 @@
 ---@diagnostic disable: deprecated
 if Debug then Debug.beginFile "ReactiveX/Scheduler/CooperativeScheduler" end
-OnInit.module("ReactiveX.Scheduler.CooperativeScheduler", function(require)
-    require "ReactiveX.Util"
-    require "ReactiveX.Scheduler.Scheduler"
+OnInit.module("ReactiveX/Scheduler/CooperativeScheduler", function(require)
+    require "ReactiveX/Util"
+    require "ReactiveX/Scheduler/Scheduler"
 
     --- @deprecated this is some weird form of PolledWait shenanigans, yuck
     --- @class CooperativeScheduler: Scheduler

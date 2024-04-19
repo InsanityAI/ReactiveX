@@ -1,7 +1,7 @@
 if Debug then Debug.beginFile "TimerQueueSubscription" end
 OnInit.module("TimerQueueSubscription", function(require)
-    require "ReactiveX.Util"
-    require "ReactiveX.Subscription"
+    require "ReactiveX/Util"
+    require "ReactiveX/Subscription"
 
     -- A subscription wrapper for TimerQueueTask
     ---@class TimerQueueSubscription: Subscription

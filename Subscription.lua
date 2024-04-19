@@ -1,6 +1,6 @@
 if Debug then Debug.beginFile "ReactiveX/Subscription" end
-OnInit.module("ReactiveX.Subscription", function(require)
-    require "ReactiveX.Util"
+OnInit.module("ReactiveX/Subscription", function(require)
+    require "ReactiveX/Util"
 
     --- @class Subscription
     --- @field action function

@@ -1,6 +1,5 @@
 if Debug then Debug.beginFile "ReactiveX/Util" end
-OnInit.module("ReactiveX.Util", function(require)
-    if Debug then Debug.log("Test") end
+OnInit.module("ReactiveX/Util", function(require)
     ReactiveXUtil = {}
     ReactiveXUtil.pack = table.pack or function(...) return { n = select('#', ...), ... } end
     ---@diagnostic disable-next-line: deprecated
@@ -19,8 +18,6 @@ OnInit.module("ReactiveX.Util", function(require)
         end
         return success, result
     end
-
-    if Debug then Debug.log("Test end") end
     return ReactiveXUtil
 end)
 if Debug then Debug.endFile() end

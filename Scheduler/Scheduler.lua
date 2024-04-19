@@ -1,5 +1,5 @@
 if Debug then Debug.beginFile "ReactiveX/Scheduler/Scheduler" end
-OnInit.module("ReactiveX.Scheduler.Scheduler", function(require)
+OnInit.module("ReactiveX/Scheduler/Scheduler", function(require)
     require.optional "TimerQueue"
     require "TimerQueueSubscription"
 

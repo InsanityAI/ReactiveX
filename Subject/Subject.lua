@@ -1,8 +1,8 @@
 if Debug then Debug.beginFile "ReactiveX/Subject" end
-OnInit.module("ReactiveX.Subject.Subject", function(require)
-    require "ReactiveX.Util"
-    require "ReactiveX.Observable"
-    require "ReactiveX.Observer"
+OnInit.module("ReactiveX/Subject/Subject", function(require)
+    require "ReactiveX/Util"
+    require "ReactiveX/Observable"
+    require "ReactiveX/Observer"
 
     --- @class Subject : Observer, Observable
     --- @field observers Observer[]

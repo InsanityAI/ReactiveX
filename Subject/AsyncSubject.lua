@@ -1,9 +1,9 @@
 if Debug then Debug.beginFile "ReactiveX/AsyncSubject" end
-OnInit.module("ReactiveX.Subject.AsyncSubject", function(require)
-    require "ReactiveX.Util"
-    require "ReactiveX.Observable"
-    require "ReactiveX.Observer"
-    require "ReactiveX.Subject.Subject"
+OnInit.module("ReactiveX/Subject/AsyncSubject", function(require)
+    require "ReactiveX/Util"
+    require "ReactiveX/Observable"
+    require "ReactiveX/Observer"
+    require "ReactiveX/Subject/Subject"
 
     --- @class AsyncSubject: Subject
     -- @description AsyncSubjects are subjects that produce either no values or a single value.  If

@@ -1,7 +1,7 @@
 if Debug then Debug.beginFile "ReactiveX/Scheduler/ImmediateScheduler" end
-OnInit.module("ReactiveX.Scheduler.ImmediateScheduler", function(require)
-    require "ReactiveX.Util"
-    require "ReactiveX.Scheduler.Scheduler"
+OnInit.module("ReactiveX/Scheduler/ImmediateScheduler", function(require)
+    require "ReactiveX/Util"
+    require "ReactiveX/Scheduler/Scheduler"
 
     --- @class ImmediateScheduler: Scheduler
     --- @description Schedules Observables by running all operations immediately.
