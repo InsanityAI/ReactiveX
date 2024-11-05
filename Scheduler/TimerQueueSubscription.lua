@@ -6,14 +6,14 @@ OnInit.module("TimerQueueSubscription", function(require)
     -- A subscription wrapper for TimerQueueTask
     ---@class TimerQueueSubscription: Subscription
     ---@field scheduler Scheduler
-    ---@field timerQueueTask TimerQueueTask
+    ---@field timerQueueTask TimerQueueElement
     TimerQueueSubscription = {}
     TimerQueueSubscription.__index = TimerQueueSubscription
     TimerQueueSubscription.__tostring = ReactiveXUtil.constant("TimerQueueSubscription")
 
     -- Creates a new Subscription.
     ---@param scheduler Scheduler
-    ---@param timerQueueTask TimerQueueTask
+    ---@param timerQueueTask TimerQueueElement
     ---@return TimerQueueSubscription
     function TimerQueueSubscription.create(scheduler, timerQueueTask)
         local instance = setmetatable(Subscription.create(), TimerQueueSubscription)
